@@ -1,0 +1,43 @@
+.navbar-brand{
+    font-family: 'Cormorant SC', serif;
+    font-size: 22px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.proyectos{
+    /* float: left;
+    margin-top: 70px;
+    margin-left: 70px;
+    cursor: pointer; */
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+/* .card:hover > img{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+} */
+
+.card{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.card-title{
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-text{
+    text-align: center;
+}
+
+.ejercicios{
+    display: flex;
+    flex-direction: column;
+}
+
+.second{
+    margin-top: 5px;
+}
