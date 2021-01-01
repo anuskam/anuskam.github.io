@@ -1,0 +1,149 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #C9DBE3;
+}
+
+#container{
+    position: absolute;
+    right: 0px;
+    width: calc(100% - 100px);
+    margin-top: 7%;
+    z-index: -1;
+}
+
+#instructions, #finishGame{
+    background-color: #ffb35c;
+    z-index: 50;
+    position: relative;
+    height: 450px;
+    width: 895px;
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+h3{
+    font-family: 'Oswald', sans-serif;
+    color: #2e585a;
+    padding: 30px;
+}
+
+.row img{
+    margin-left: 100px;
+}
+
+.row p{
+    margin-left: 80px;
+    padding-right: 120px;
+    text-align: left
+}
+
+#play, #replay, #redeem{
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #2e585a;
+    padding: 7px 10px;
+    border-radius: 7px;
+}
+
+#play:hover, #replay:hover, #redeem:hover{
+    transform: scale(1.1);
+}
+
+
+
+#gamePlay {
+    display: none;
+}
+
+#game{
+    height: 450px;
+    width: 895px;
+    margin: 20px auto;
+    position: relative;
+}
+
+
+#background{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+
+#character {
+    height: 80px;
+    width: 60px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 100;
+}
+
+#cloud, #cloud2, #cloud3{
+    height: 50px;
+    width: 120px;
+    position: absolute;
+    bottom: 0px;
+}
+
+#coin{
+    height: 40px;
+    width: 30px;
+    position: absolute;
+    bottom: 0px;
+}
+
+
+.points{
+    position: absolute;
+    top: 10px;
+    padding-left: 10px;
+    font-weight: bold;
+    background-color: #C9DBE3;
+    padding-right: 15px;
+}
+
+#time{
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    background-color: #C9DBE3;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+#finishGame{
+    display: none;
+    padding-top: 50px;
+}
+
+#finishGame > p:first-child{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#abuela-final{
+    margin-left: 210px;
+    margin-top: 50px;
+}
+
+#gameOverInfo p{
+    margin-top: 50px;
+    margin-right: 320px;
+    padding: 10px;
+    margin-left: 270px;
+    text-align: left;
+    border: 2px solid #2e585a;
+    border-radius: 10px;
+}
+
+#replay{
+    margin-left: 10px;
+}
+
+#redeem{
+    margin-left: 50px;
+}
